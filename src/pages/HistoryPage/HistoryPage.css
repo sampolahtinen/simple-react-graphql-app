@@ -1,0 +1,17 @@
+.history-page {
+  transform: translateX(+50%);
+}
+
+.history-page-heading {
+  font-size: 2.8rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+  letter-spacing: 1.2rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 420px) {
+  .history-page-heading {
+    font-size: 2.4rem;
+  }
+}

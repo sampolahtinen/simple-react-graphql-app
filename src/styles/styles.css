@@ -1,0 +1,66 @@
+:root {
+  --background-color: #f3f3f3;
+  --color-turqoise: #66fcf1;
+  --color-grey: #9c9ca4;
+  --color-dark-grey: #1d1d1f;
+  --color-red: #f76c6c;
+  --color-lila: #6e1fff;
+  --background-search-results: #efefff;
+}
+
+@font-face {
+  font-family: "GothamRounded";
+  src: url('/static/fonts/gothamrounded-medium.otf') format("otf");
+  font-display: fallback;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "GothamRounded", "Calibre", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 1.6rem;
+  color: var(--color-dark-grey);
+  background-attachment: fixed;
+  background-color: var(--background-color);
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-dark-grey);
+}
+a:hover {
+  color: var(--color-lila);
+}
+
+input {
+  border: 0;
+}
+
+@media screen and (max-width: 420px) {
+  html {
+    font-size: 56.25%; /* 55% of 16px is 9px*/
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 56.25%; /* 55% of 16px is 9px*/
+  }
+}

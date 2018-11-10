@@ -1,0 +1,46 @@
+.profile-page-title {
+  font-size: 2.8rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+  letter-spacing: 1.2rem;
+  text-align: center;
+}
+
+.profile-page-subtitle {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.profile-page-body-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-details-wrapper {
+  display: flex;
+  justify-content: center;
+  line-height: 2rem;
+  margin-bottom: 6rem;
+}
+
+.profile-detail {
+  color: var(--color-grey);
+  font-weight: 200;
+  margin: 0 1rem;
+}
+
+.profile-page-films-container {
+  width: 50%;
+}
+.profile-page-film {
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+.profile-page-bonus-list-container {
+  width: 50%;
+}
+.profile-page-list-name {
+  font-weight: 100;
+  text-decoration: none;
+  padding-left: 0;
+}
