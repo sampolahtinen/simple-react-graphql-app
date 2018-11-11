@@ -5,6 +5,7 @@
   transform-origin: top;
   overflow: scroll;
   background-color: var(--background-search-results);
+  box-shadow: 6px 22px 55px -2px white;
 }
 
 .persons-list {

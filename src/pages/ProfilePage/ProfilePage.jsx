@@ -1,10 +1,9 @@
-import React, { Component, Fragment } from "react";
+import React, { Fragment } from "react";
 import MaterialIcon from "material-icons-react";
 import { Query } from "react-apollo";
 import PropTypes from "prop-types";
 import { GET_PERSON_DETAILS } from "../../api/queries.js";
-import { default as PersonComponent } from "../../components/PersonsList/Person";
-import BonusList from "../../components/BonusList";
+import List from "../../components/List";
 
 import "./ProfilePage.css";
 
@@ -58,8 +57,8 @@ const ProfilePage = ({ match }) => {
                     </ul>
                   </div>
                   <div>
-                    <h3 className="profile-page-subtitle">Bonus list</h3>
-                    <BonusList
+                    <h3 className="profile-page-subtitle">List of co-actors</h3>
+                    <List
                       className="profile-page-list-name"
                       profileName={Person.name}
                       data={Person.films}
